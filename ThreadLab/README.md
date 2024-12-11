@@ -1,7 +1,7 @@
 # Лабораторная работа №1
 ## Задание 1
 Этот проект реализован на C# и иллюстрирует применение многопоточности с использованием класса Thread. В программе создаются три потока, каждый из которых выполняет свою задачу — выводит числа от 0 до указанного значения.
-https://github.com/sorrymorning/ThreadLab/blob/main/ThreadLab/Program.cs
+
 
 - **Класс `myThread`**:
   - Конструктор принимает имя потока и максимальное значение для счётчика.
@@ -14,9 +14,9 @@ https://github.com/sorrymorning/ThreadLab/blob/main/ThreadLab/Program.cs
 - **Класс `Program`**:
   - В методе `Main` создаются три экземпляра класса `myThread`, каждый из которых запускает свой поток.
   - 
-![Вывод программы](https://github.com/sorrymorning/ThreadLab/blob/main/%D0%9F%D0%BE%D1%82%D0%BE%D0%BA%D0%B8.png)
+
 ## Задание 2
-https://github.com/sorrymorning/ThreadLab/blob/main/UsingSemaphore/Program.cs
+
 # 
 
 ## Описание
@@ -36,4 +36,4 @@ https://github.com/sorrymorning/ThreadLab/blob/main/UsingSemaphore/Program.cs
   - Поток ожидает освобождения места в семафоре с помощью `sem.WaitOne()`.
   - После получения разрешения читатель "входит в библиотеку", "читает" (с задержкой) и затем "покидает библиотеку".
   - После завершения чтения поток освобождает место в семафоре с помощью `sem.Release()`.
-![Вывод программы](https://github.com/sorrymorning/ThreadLab/blob/main/%D1%81%D0%B5%D0%BC.png)
+
